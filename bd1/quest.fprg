@@ -12,9 +12,9 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="n, i, sum, erembe, niit, shildegonoo1, shildegonoo2, shildegonoo3, max" type="Integer" array="False" size=""/>
+            <declare name="n, i, sum, niit, shildegonoo1, shildegonoo2, shildegonoo3, max" type="Integer" array="False" size=""/>
             <declare name="ner, shildegner1, shildegner2, shildegner3" type="String" array="False" size=""/>
-            <do expression="n &lt; 3 || n &gt; 10">
+            <do expression="n &lt; 5 || n &gt; 10">
                 <input variable="n"/>
             </do>
             <assign variable="shildegonoo1" expression="-1"/>

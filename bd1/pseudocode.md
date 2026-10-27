@@ -1,6 +1,6 @@
-ALGORITHM Наадмын сур харваа
+# ALGORITHM Наадмын сур харваа
 
-Main
+# Main
 DECLARE INTIGER n, i, sum, max, niit, shildegonoo1, shildegonoo2, shildegonoo3
 DECLARE STRING ner, shildegner1, shildegner2, shildegner3
 DO (n < 5 || n > 10):
@@ -45,7 +45,7 @@ FOR i = 1 to n
     OUTPUT shildegner3, shildegonoo3
 END
 
-Angilal (Ded function) INPUT INTIGER niit
+# Angilal (Ded function) INPUT INTIGER niit
 IF niit = 40 
    OUTPUT "mash sain"
     ELSE IF niit >= 30  
