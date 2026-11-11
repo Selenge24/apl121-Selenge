@@ -14,14 +14,3 @@ long long fib_loop(int n) {
     }
     return a;
 }
-
-int main(void) {
-    clock_t t = clock();
-    long long r = fib_rec(40);
-    printf("fib_rec(40) = %lld, %.3f сек\n", r, (double)(clock() - t) / CLOCKS_PER_SEC);
-
-    t = clock();
-    r = fib_loop(40);
-    printf("fib_loop(40) = %lld, %.6f сек\n", r, (double)(clock() - t) / CLOCKS_PER_SEC);
-    return 0;
-}
